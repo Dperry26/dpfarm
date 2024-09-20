@@ -86,15 +86,24 @@ header p {
   font-style: italic;
 }
 
-nav ul {
-  display: flex;
+.navbar {
+  text-align: right;
+}
+
+ul {
   padding: 0;
-  margin: 10px 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 10px;
 }
 
 
+
 .nav-button {
-  display: flex;
   text-decoration: none;
   background-color: var(--orange);
   color: var(--white);
